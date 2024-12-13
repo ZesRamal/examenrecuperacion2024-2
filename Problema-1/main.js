@@ -1,7 +1,7 @@
 function race(numero) {
     var arrayNum = numero.toString()
     if (arrayNum.length < 4) {
-        console.log("Fin");
+        console.log("End");
         return 0
     } else {
         carX1 = parseInt(arrayNum[0])
@@ -29,10 +29,10 @@ function race(numero) {
             }
         }
         if (carX > carY) {
-            console.log("Ganador: CarX");
+            console.log("Winner: CarX");
         }
         else {
-            console.log("Ganador: CarY");
+            console.log("Winner: CarY");
         }
         race(arrayNum.slice(4))
     }
