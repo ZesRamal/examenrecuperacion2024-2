@@ -1,6 +1,4 @@
 function race(numero) {
-    console.log(numero.type);
-    
     var arrayNum = numero.toString()
     if (arrayNum.length < 4) {
         console.log("Fin");
@@ -40,4 +38,6 @@ function race(numero) {
     }
 }
 
-race("1111111")
+input = 2342554354
+
+race(input)
